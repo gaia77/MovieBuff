@@ -1,0 +1,30 @@
+// Imports
+
+// Settings
+@use './base/reset';
+@use './base/settings';
+@use './base/type';
+
+
+// Components
+@use './components/body';
+@use './components/header';
+@use './components/btn-main-nav';
+@use './components/main';
+@use './components/favourites';
+@use './components/about';
+@use './components/single-movie';
+@use './components/nav';
+@use './components/footer';
+@use './components/page-not-found';
+
+// Google Fonts - Import
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+
+// Functions
+
+//Utilities
+@import './utilities/mixins.scss';
+
+
